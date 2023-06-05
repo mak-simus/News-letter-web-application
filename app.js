@@ -38,7 +38,7 @@ const url ="https://us8.api.mailchimp.com/3.0/lists/3592ed8b7d";
 
 const options = {
     method: "POST",
-    auth:"makesh98:91054e5543d5c71c2e3ceb1a46e7a3f5-us8"
+    auth:"makesh98:enteryourAPIkeyfrommailchimp"
 }
 
 const request = https.request(url,options,function(response){
@@ -79,9 +79,3 @@ app.listen(process.env.PORT || 3000, function() {
 
 
 
-
-// API key
-// 91054e5543d5c71c2e3ceb1a46e7a3f5-us8
-
-// list id
-// 3592ed8b7d
